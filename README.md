@@ -1,269 +1,84 @@
-Based on your CV  and your goal of transitioning from QA to DevOps, I'd recommend positioning yourself as a **Software Test Engineer evolving into a DevOps & Cloud Engineer**. Recruiters appreciate honesty and evidence of continuous learning, so the README should reflect both your current experience and the technologies you're actively mastering.
+### Software Test Engineer | Transitioning DevOps & Cloud Engineer
+📍 Mumbai, India | ✉️ amit.manore50@gmail.com | 📱 +91-9619904256
+🔗 [LinkedIn](https://www.linkedin.com/in/amitmanore/) | 🐙 [GitHub](https://github.com/amitmanore)
 
-Below is a professional GitHub Profile `README.md` for your special repository:
+---
 
-> **Repository Name:** `Amit703` (same as your GitHub username)
+## 🚀 About Me
 
-````md
-<h1 align="center">Hi 👋, I'm Amit Manore</h1>
-<h3 align="center">Software Test Engineer | Aspiring DevOps & Cloud Engineer | Automation Enthusiast</h3>
+I am a results-driven **Software Test Engineer** with over 3 years of experience specializing in end-to-end QA, REST API validation, and test automation. Having spent my career ensuring application reliability and accelerating deployment cycles in Agile environments, I am naturally transitioning my expertise into **DevOps and Cloud Engineering**. 
 
-<p align="center">
-I'm passionate about building reliable software and continuously expanding my expertise in DevOps, Cloud, and Automation.
-Currently transitioning from Software Testing to DevOps by building real-world projects and mastering modern cloud-native technologies.
+My core strength lies in bridging the gap between high-quality code and robust infrastructure. I am leveraging my strong background in automation, scripting, and system validation to build reliable, scalable CI/CD pipelines, containerized environments, and cloud-native infrastructure.
+
+---
+
+## 🛠️ Technical Skills
+
+### ☁️ Cloud & DevOps (Specialization)
+*   **Cloud Providers:** AWS Fundamentals (EC2, IAM, S3, VPC) & Advanced AWS (EKS, ECS, CloudWatch)
+*   **Containerization & Orchestration:** Docker, Kubernetes
+*   **Infrastructure as Code (IaC):** Terraform
+*   **CI/CD Automation:** Jenkins, AWS CodePipeline
+*   **Observability & Logging:** Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), Fluentd
+*   **Operating Systems & Networking:** Linux (Ubuntu), Networking Basics, Shell Scripting (Bash)
+
+### 🧪 Quality Assurance & Automation (Core Experience)
+*   **Testing Methodologies:** Functional, Regression, UI, API, Smoke, Sanity, Integration, End-to-End (E2E)
+*   **Automation Frameworks:** Playwright (Page Object Model design), AI-Assisted Test Generation
+*   **Languages & Databases:** JavaScript, Python, MySQL
+*   **API & Defect Management:** Postman, Jira (Lifecycle tracking, prioritization, verification)
+*   **Version Control:** Git, GitHub
+*   **AI Productivity:** ChatGPT, GitHub Copilot, Prompt Engineering
+
+---
+
+## 💼 Professional Experience
+
+### **AtomIQ** — *Associate Software Test Engineer*
+🗓️ *Apr 2023 — Present*
+*   Managed the end-to-end testing lifecycle for multiple complex ERP web applications, executing over 50 test cases per release to guarantee application stability.
+*   Conducted rigorous functional, UI, smoke, sanity, and regression testing across major releases, maintaining a 98% application quality score.
+*   Validated REST APIs (GET/POST) through UI workflows and Postman, achieving a 95% data verification accuracy rate against business rules.
+*   Integrated AI-assisted test case optimization techniques into the QA workflow, reducing overall preparation time by 30% and boosting test coverage efficiency by 40%.
+*   Discovered, logged, and tracked 250+ high-impact defects in Jira, collaborating closely with developers and BAs to slash defect turnaround times by 25%.
+
+---
+
+## 🏗️ Projects
+
+### 🛠️ **DevOps Infrastructure & CI/CD Pipelines**
+> 📂 **[View DevOps Repositories](https://github.com/amitmanore?tab=repositories)**
+*   *Description:* A centralized collection of hands-on infrastructure projects. Features standalone configurations for Dockerizing multi-tier web apps, deploying automated Jenkins pipelines, provisioning modular AWS infrastructure (VPC, EC2, S3) using Terraform, and monitoring application health using Prometheus and Grafana dashboards.
+
+### 🧪 **Playwright Test Automation Implementation**
+> 🔗 **[View Automation Project Link](https://github.com/amitmanore/playwright-automation-framework)** *(Update with your actual repo link)*
+*   *Description:* Engineered a scalable UI and regression test automation framework using Playwright and JavaScript. Implemented the Page Object Model (POM) for highly maintainable code and embedded AI-assisted scripting to accelerate regression testing for enterprise-level releases.
+
+---
+
+## 🎓 Education & Certifications
+
+### **Education**
+*   **Master of Computer Applications (MCA)** | University of Mumbai (2019)
+*   **Bachelor of Science in Information Technology (BSc IT)** | University of Mumbai (2015)
+
+### **Certifications**
+*   **Playwright Automation Testing Certification** — Udemy
+
+---
+
+## 📈 GitHub Stats
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=amitmanore&show_icons=true&theme=visual_studio_dark" alt="Amit's GitHub Stats" />
 </p>
 
 ---
-
-# 👨‍💻 About Me
-
-- 💼 Software Test Engineer with **3+ years of experience** in ERP applications.
-- 🔍 Experienced in Functional, Regression, UI, API, Smoke, Sanity and Integration Testing.
-- 🤖 Hands-on experience with **Playwright**, **Postman**, **Git**, and AI-assisted testing.
-- ☁️ Currently learning Cloud & DevOps technologies through practical projects.
-- 🚀 Passionate about CI/CD, Infrastructure as Code, Kubernetes, and Cloud Automation.
-- 📚 Believe in continuous learning and sharing knowledge.
-- 🎯 Goal: Become a DevOps Engineer specializing in AWS and Kubernetes.
-
----
-
-# 🚀 Currently Learning
-
-- Linux Administration
-- Git & GitHub
-- Computer Networking
-- AWS Cloud
-- Bash Scripting
-- Jenkins
-- Docker
-- Kubernetes
-- Terraform
-- Prometheus
-- Grafana
-- ELK Stack
-- Fluentd
-- AWS EKS
-- AWS ECS
-- AWS CodePipeline
-- Amazon CloudWatch
-
----
-
-# 🛠 Tech Stack
-
-## Testing
-
-![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=playwright&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-orange?style=for-the-badge&logo=postman)
-![Jira](https://img.shields.io/badge/Jira-blue?style=for-the-badge&logo=jira)
-![REST API](https://img.shields.io/badge/REST_API-02569B?style=for-the-badge)
-
----
-
-## Programming
-
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
-![Python](https://img.shields.io/badge/Python-blue?style=for-the-badge&logo=python)
-![Bash](https://img.shields.io/badge/Bash-black?style=for-the-badge&logo=gnu-bash)
-
----
-
-## DevOps & Cloud
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-red?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
-
-![AWS](https://img.shields.io/badge/AWS-orange?style=for-the-badge&logo=amazonaws)
-![Docker](https://img.shields.io/badge/Docker-blue?style=for-the-badge&logo=docker)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes)
-
-![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins)
-
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana)
-
-![ELK](https://img.shields.io/badge/ELK-005571?style=for-the-badge)
-![Fluentd](https://img.shields.io/badge/Fluentd-0E83CD?style=for-the-badge)
-
----
-
-# 💼 Experience
-
-## Associate Software Test Engineer
-**AtomIQ**  
-**April 2023 – Present**
-
-### Highlights
-
-- Performed end-to-end testing across multiple web applications.
-- Executed Functional, Regression, Smoke, Sanity and UI testing.
-- Validated REST APIs using Postman.
-- Created AI-assisted Playwright automation scripts.
-- Managed complete defect lifecycle using Jira.
-- Collaborated with Developers and Business Analysts in Agile/Scrum.
-- Improved regression efficiency using reusable Page Object Model framework.
-
----
-
-# 🎓 Education
-
-### Master of Computer Applications (MCA)
-
-University of Mumbai
-
-2019
-
----
-
-### Bachelor of Science (Information Technology)
-
-University of Mumbai
-
-2015
-
----
-
-# 📂 Featured Projects
-
-## 1. Playwright Automation Framework
-
-> AI-assisted Playwright automation framework implementing the Page Object Model.
-
-**Tech Used**
-
-- Playwright
-- JavaScript
-- Git
-- GitHub
-
-🔗 Repository
+⚡ *“Quality is not an act, it is a habit.” Looking to contribute my automation background to high-velocity DevOps teams.*
 
 ```
-https://github.com/Amit703/playwright-automation
-```
 
----
+### 💡 Tips for Final Touches:
 
-## 2. Linux Administration Lab
-
-Hands-on Linux commands, shell scripting and server management exercises.
-
-```
-https://github.com/Amit703/linux-lab
-```
-
----
-
-## 3. AWS DevOps Projects
-
-Practical AWS projects covering EC2, IAM, S3 and VPC.
-
-```
-https://github.com/Amit703/aws-devops-projects
-```
-
----
-
-## 4. Docker & Kubernetes
-
-Containerization and orchestration practice projects.
-
-```
-https://github.com/Amit703/docker-kubernetes
-```
-
----
-
-## 5. Terraform Infrastructure
-
-Infrastructure as Code using Terraform on AWS.
-
-```
-https://github.com/Amit703/terraform-labs
-```
-
----
-
-## 6. Jenkins CI/CD
-
-Automating build, test and deployment pipelines.
-
-```
-https://github.com/Amit703/jenkins-pipeline
-```
-
----
-
-# 📜 Certification
-
-- Playwright Automation Testing – Udemy
-
----
-
-# 🌱 2026 Learning Roadmap
-
-- ✅ Linux
-- ✅ Git & GitHub
-- 🔄 Networking
-- 🔄 AWS
-- 🔄 Bash
-- 🔄 Jenkins
-- 🔄 Docker
-- 🔄 Kubernetes
-- 🔄 Terraform
-- 🔄 Prometheus
-- 🔄 Grafana
-- 🔄 ELK
-- 🔄 Fluentd
-- 🔄 AWS EKS
-- 🔄 AWS ECS
-- 🔄 CodePipeline
-- 🔄 CloudWatch
-
----
-
-# 📊 GitHub Stats
-
-![Stats](https://github-readme-stats.vercel.app/api?username=Amit703&show_icons=true)
-
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Amit703&layout=compact)
-
-![Streak](https://streak-stats.demolab.com?user=Amit703)
-
----
-
-# 🤝 Connect With Me
-
-📧 Email
-
-```
-amit.manore50@gmail.com
-```
-
-💼 LinkedIn
-
-```
-(Add your LinkedIn profile URL)
-```
-
-🐙 GitHub
-
-```
-https://github.com/Amit703
-```
-
----
-
-# 💡 Quote
-
-> "Continuous learning and consistent practice are the foundations of growth in technology."
-
----
-
-⭐ Thanks for visiting my profile. Feel free to explore my repositories and connect with me!
-````
-
-
-This README presents your current QA experience truthfully while clearly demonstrating your transition into DevOps through hands-on learning and projects, which is a strong narrative for recruiters.
+1. **Repository Name:** Create a new repository named exactly your username (e.g., `amitmanore`), initialize it with a `README.md`, and paste this content inside.
+2. **Links:** Replace the placeholder project links (like `[https://github.com/amitmanore/playwright-automation-framework](https://github.com/amitmanore/playwright-automation-framework)`) with the exact links once you push your repositories!
