@@ -78,7 +78,3 @@ My core strength lies in bridging the gap between high-quality code and robust i
 
 ```
 
-### 💡 Tips for Final Touches:
-
-1. **Repository Name:** Create a new repository named exactly your username (e.g., `amitmanore`), initialize it with a `README.md`, and paste this content inside.
-2. **Links:** Replace the placeholder project links (like `[https://github.com/amitmanore/playwright-automation-framework](https://github.com/amitmanore/playwright-automation-framework)`) with the exact links once you push your repositories!
