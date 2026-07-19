@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playwright News Pro</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#f4f4f4;color:#222}
+header{background:#b80000;color:#fff;padding:14px 24px;position:sticky;top:0}
+.top{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.logo{font-size:30px;font-weight:700}
+nav{display:flex;gap:18px;margin-top:10px}
+nav a{text-decoration:none;color:#fff;font-weight:bold}
+.hero{height:420px;background:url('https://images.unsplash.com/photo-1495020689067-958852a7765e?w=1600') center/cover;display:flex;align-items:end}
+.overlay{background:linear-gradient(transparent,rgba(0,0,0,.9));padding:40px;width:100%;color:#fff}
+.breaking{background:#111;color:#fff;padding:10px;overflow:hidden;white-space:nowrap}
+.breaking span{display:inline-block;padding-left:100%;animation:scroll 18s linear infinite}
+@keyframes scroll{to{transform:translateX(-120%)}}
+.controls{padding:20px;display:flex;gap:10px;justify-content:center}
+input{padding:10px;width:320px}
+button{padding:10px 16px;background:#b80000;color:#fff;border:none;cursor:pointer}
+.grid{display:grid;grid-template-columns:2fr 1fr;gap:20px;padding:20px}
+.main,.side{display:grid;gap:18px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.card{background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+.card img{width:100%;height:200px;object-fit:cover}
+.card div{padding:15px}
+.tag{display:inline-block;background:#b80000;color:#fff;padding:4px 8px;font-size:12px;border-radius:20px}
+footer{background:#222;color:#fff;text-align:center;padding:18px;margin-top:20px}
+.dark{background:#111;color:#eee}
+.dark .card{background:#1f1f1f}
+@media(max-width:900px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="top">
+<div class="logo">PLAYWRIGHT NEWS</div>
+<nav>
+<a href="#">Home</a><a href="#">AI</a><a href="#">Testing</a><a href="#">DevOps</a><a href="#">Cloud</a>
+</nav>
+</div>
+</header>
+
+<div class="breaking"><span>🔴 Breaking: Playwright adoption rises • AI accelerates QA • Kubernetes demand grows • AWS hiring remains strong</span></div>
+
+<section class="hero">
+<div class="overlay">
+<h1>Today's Top Technology Stories</h1>
+<p>Automation, DevOps, Cloud Computing and Artificial Intelligence</p>
+</div>
+</section>
+
+<div class="controls">
+<input id="search" placeholder="Search news...">
+<button onclick="toggleTheme()">Dark Mode</button>
+</div>
+
+<div class="grid">
+<div class="main">
+<div class="cards" id="cards"></div>
+</div>
+<div class="side">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800">
+<div><span class="tag">Trending</span><h3>Top Skills for 2026</h3><p>Playwright, Docker, Kubernetes, Terraform, AWS and AI-assisted testing remain highly sought-after.</p></div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800">
+<div><span class="tag">Editor's Pick</span><h3>Cloud Migration</h3><p>Organizations continue modernizing legacy systems using cloud-native architectures.</p></div>
+</div>
+</div>
+</div>
+
+<footer>© 2026 Playwright News Pro</footer>
+
+<script>
+const data=[
+["Playwright","https://images.unsplash.com/photo-1518770660439-4636190af475?w=800","Playwright dominates modern browser automation with speed and reliability."],
+["DevOps","https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800","CI/CD pipelines reduce deployment time and improve software quality."],
+["AI","https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800","Generative AI is transforming software testing and development."],
+["AWS","https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800","Cloud computing continues to drive enterprise digital transformation."],
+["Cybersecurity","https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800","Security testing is becoming essential for every software release."],
+["Automation","https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=800","Automation engineers remain among the highest-demand technology roles."]
+];
+const container=document.getElementById("cards");
+function render(list){
+container.innerHTML="";
+list.forEach(n=>{
+container.innerHTML+=`<article class="card"><img src="${n[1]}"><div><span class="tag">${n[0]}</span><h3>${n[0]} News</h3><p>${n[2]}</p></div></article>`;
+});
+}
+render(data);
+document.getElementById("search").addEventListener("input",e=>{
+const q=e.target.value.toLowerCase();
+render(data.filter(x=>x.join(" ").toLowerCase().includes(q)));
+});
+function toggleTheme(){document.body.classList.toggle("dark");}
+</script>
+</body>
+</html>
